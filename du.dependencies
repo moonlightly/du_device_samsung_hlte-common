@@ -1,0 +1,26 @@
+[
+  {
+	"remote":		"github",
+    "repository":	"gf/du_device_samsung_msm8974-common",
+    "target_path":	"device/samsung/msm8974-common"
+    "branch":		"m-caf"
+  },
+  {
+	"remote":		"github",
+    "repository":	"gf/du_kernel_samsung_hlte",
+    "target_path":	"kernel/samsung/hlte"
+    "branch":		"m-caf"
+  },
+  {
+	"remote":		"github",
+    "repository":	"DirtyUnicorns/android_external_busybox",
+    "target_path":	"external/busybox"
+    "branch":		"m"
+  },
+  {
+	"remote":		"github",
+    "repository":	"DirtyUnicorns/android_external_stlport",
+    "target_path":	"external/stlport"
+    "branch":		"m-caf"
+  }
+]
