@@ -39,6 +39,9 @@ TARGET_KERNEL_VARIANT_CONFIG := unicornblood_hlte_eur_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/hlte
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
+# ANT+
+BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
+
 # Audio
 QCOM_CSDCLIENT_ENABLED := false
 AUDIO_FEATURE_LOW_LATENCY_PRIMARY := false
