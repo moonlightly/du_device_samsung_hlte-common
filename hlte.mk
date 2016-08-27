@@ -74,22 +74,18 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     gps.msm8974
 
-# camera
-PRODUCT_PACKAGES += \
-    camera.msm8974 \
-    libstlport \
-    libxml2 \
-    Snap
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/gps.conf:/system/etc/gps.conf \
     $(LOCAL_PATH)/gps/etc/flp.conf:/system/etc/flp.conf \
     $(LOCAL_PATH)/gps/etc/sap.conf:/system/etc/sap.conf \
     $(LOCAL_PATH)/gps/etc/izat.conf:/system/etc/izat.conf
 
-# Gello
+# Camera
 PRODUCT_PACKAGES += \
-    Gello
+    camera.msm8974 \
+    libstlport \
+    libxml2 \
+    Snap
 
 # Input device
 PRODUCT_COPY_FILES += \
@@ -109,8 +105,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ue_rf4ce_remote.kl:system/usr/keylayout/ue_rf4ce_remote.kl
 
 # Keystore
-PRODUCT_PACKAGES += \
-   keystore.msm8974
+# PRODUCT_PACKAGES += \
+#   keystore.msm8974
 
 # Lights
 PRODUCT_PACKAGES += \
@@ -132,10 +128,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libnfc-brcm-20791b05.conf:system/etc/libnfc-brcm-20791b05.conf \
     $(LOCAL_PATH)/configs/libnfc-brcm-20791b04.conf:system/etc/libnfc-brcm-20791b04.conf \
     $(LOCAL_PATH)/configs/libnfc-brcm.conf:system/etc/libnfc-brcm.conf
-
-# Kryten2k35 OTAUpdates
-PRODUCT_PACKAGES += \
-    OTAUpdates
 
 # Radio
 PRODUCT_PACKAGES += \
