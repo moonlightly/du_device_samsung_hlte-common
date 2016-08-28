@@ -1,14 +1,32 @@
 [
   {
-	"remote":		"github",
-    "repository":	"gf/du_device_samsung_msm8974-common",
+    "repository":	"GodfatherX64/du_device_samsung_hlte",
+    "target_path":	"device/samsung/hlte"
+    "branch":		"m-caf"
+  },
+  {
+    "repository":	"GodfatherX64/du_kernel_samsung_hlte",
+    "target_path":	"kernel/samsung/hlte"
+    "branch":		"m-caf"
+  },
+  {
+    "repository":	"GodfatherX64/du_vendor_samsung",
+    "target_path":	"vendor/samsung
+    "branch":		"m-caf"
+  },
+  {
+    "repository":	"GodfatherX64/du_device_samsung_msm8974-common",
     "target_path":	"device/samsung/msm8974-common"
     "branch":		"m-caf"
   },
   {
-	"remote":		"github",
-    "repository":	"gf/du_kernel_samsung_hlte",
-    "target_path":	"kernel/samsung/hlte"
+    "repository":	"DirtyUnicorns/android_device_samsung_qcom-common",
+    "target_path":	"device/samsung/qcom-common"
+    "branch":		"m-caf"
+  },
+  {
+    "repository":	"DirtyUnicorns/android_hardware_samsung",
+    "target_path":	"hardware/samsung"
     "branch":		"m-caf"
   },
   {
