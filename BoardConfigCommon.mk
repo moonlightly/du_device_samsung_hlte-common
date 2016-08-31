@@ -37,7 +37,7 @@ TARGET_KERNEL_CONFIG := unicornblood_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := unicornblood_hlte_eur_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/hlte
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := /home/godfatherx64/android/du/prebuilts/gcc/linux-x86/arm/arm-eabi-4.9/bin/arm-eabi-
+#TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
