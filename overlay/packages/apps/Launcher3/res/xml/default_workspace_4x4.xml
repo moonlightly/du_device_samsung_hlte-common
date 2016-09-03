@@ -14,16 +14,34 @@
      limitations under the License.
 -->
 
-<resources>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
 
-    <!-- Whether or not the dock settings are to be displayed for this device when docked -->
-    <bool name="has_dock_settings">true</bool>
+    <!-- Hotseat -->
+    <include launcher:workspace="@xml/dw_phone_hotseat" />
 
-    <!-- Whether or not the dock settings are to be displayed for this device when docked
-     <bool name="has_dock_settings">true</bool>-->
-    <bool name="has_powercontrol_widget">true</bool>
+    <!-- Bottom row -->
+    <resolve
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="3" >
+    </resolve>
 
-    <!-- Whether to show a preference item for mobile plan -->
-    <bool name="config_show_mobile_plan">true</bool>
+    <resolve
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="3" >
+    </resolve>
 
-</resources>
+    <resolve
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="3" >
+    </resolve>
+
+    <resolve
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="3" >
+    </resolve>
+
+</favorites>

@@ -28,4 +28,34 @@
 
     <!-- Show enabled lte option for lte device -->
     <bool name="config_enabled_lte" translatable="false">true</bool>
+
+
+
+
+    <!-- Determines if the current device should allow emergency numbers
+         to be logged in the Call Log.
+         (Some carriers require that emergency calls *not* be logged,
+         presumably to avoid the risk of accidental redialing from the
+         call log UI.  This is a good idea, so the default here is false.)
+
+         TODO: on the other hand, it might still be useful to have some
+         record of the emergency calls you've made, or to be able to look
+         up the exact date/time of an emergency call.  So perhaps we
+         *should* log those calls, but instead fix the call log to disable
+         the "call" button for emergency numbers. -->
+    <!-- DEPRECATED: Use CarrierConfigManager#KEY_ALLOW_EMERGENCY_NUMBERS_IN_CALL_LOG_BOOL -->
+    <bool name="allow_emergency_numbers_in_call_log">true</bool>
+
+    <!-- Show cdma auto network mode in (glabal) roaming -->
+    <!-- DEPRECATED: Use CarrierConfigManager#KEY_SHOW_CDMA_CHOICES_BOOL -->
+    <bool name="config_show_cdma" translatable="false">true</bool>
+
+    <!-- Display carrier settings menu if true -->
+    <!-- DEPRECATED: Use CarrierConfigManager#KEY_CARRIER_SETTINGS_ENABLE_BOOL -->
+    <bool name="config_carrier_settings_enable">true</bool>
+
+    <!-- Show APN Settings for some CDMA carriers -->
+    <!-- DEPRECATED: Use CarrierConfigManager#KEY_SHOW_APN_SETTING_CDMA_BOOL -->
+    <bool name="config_show_apn_setting_cdma">true</bool>
+
 </resources>

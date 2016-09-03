@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2016, The CyanogenMod Project
+** Copyright 2016, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -17,7 +17,12 @@
 */
 -->
 
-<resources>
-    <!-- Use ZSL mode for Qualcomm cameras -->
-    <bool name="enableZSL">true</bool>
+<!-- These resources are around just to allow their values to be customized -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Threshold in micro amperes below which a charger is rated as "slow" -->
+    <integer name="config_chargingSlowlyThreshold">900000</integer>
+
+    <!-- Threshold in micro amperes above which a charger is rated as "fast" -->
+    <integer name="config_chargingFastThreshold">1000000</integer>
 </resources>
