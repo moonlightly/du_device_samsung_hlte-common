@@ -2,41 +2,41 @@
   {
     "repository":	"GodfatherX64/du_device_samsung_hlte",
     "target_path":	"device/samsung/hlte"
-    "branch":		"m-caf"
+    "branch":		"n-caf"
   },
   {
     "repository":	"GodfatherX64/du_device_samsung_msm8974-common",
     "target_path":	"device/samsung/msm8974-common"
-    "branch":		"m-caf"
+    "branch":		"n-caf"
   },
   {
     "repository":	"GodfatherX64/du_device_samsung_qcom-common",
     "target_path":	"device/samsung/qcom-common"
-    "branch":		"m-caf"
+    "branch":		"n-caf"
   },
   {
     "repository":	"GodfatherX64/du_kernel_samsung_hlte",
     "target_path":	"kernel/samsung/hlte"
-    "branch":		"m-caf"
+    "branch":		"n-caf"
   },
   {
     "repository":	"GodfatherX64/du_vendor_samsung",
     "target_path":	"vendor/samsung
-    "branch":		"m-caf"
+    "branch":		"n-caf"
   },
   {
-    "repository":	"GodfatherX64/du_hardware_samsung",
+    "repository":	"CyanogenMod/android_hardware_samsung",
     "target_path":	"hardware/samsung"
-    "branch":		"m-caf"
-  },
-  {
-    "repository":	"DirtyUnicorns/android_external_busybox",
-    "target_path":	"external/busybox"
-    "branch":		"m"
+    "branch":		"cm-14.1"
   },
   {
     "repository":	"DirtyUnicorns/android_external_stlport",
     "target_path":	"external/stlport"
-    "branch":		"m-caf"
+    "branch":		"n-caf"
+  },
+  {
+    "repository":	"DirtyUnicorns/android_device_qcom_sepolicy",
+    "target_path":	"device/qcom/sepolicy"
+    "branch":		"n7x-caf"
   }
 ]
