@@ -23,14 +23,7 @@
 
     <string name="app_name" msgid="719438068451601849">"Keyguard"</string>
 
-    <string name="keyguard_charged" msgid="3272223906073492454">"I'm Full Man, UnPlug Me !!"</string>
-
-    <string name="keyguard_plugged_in" msgid="9087497435553252863">"Leave Me Alone, I'm Eating"</string>
-
-    <string name="keyguard_plugged_in_charging_fast" msgid="6671162730167305479">"Come On, Charge Faster You Piece Of Crap"</string>
-
-    <string name="keyguard_plugged_in_charging_slowly" msgid="1964714661071163229">"Come On, Charge Faster You Piece Of Crap"</string>
-
-    <string name="keyguard_low_battery" msgid="8143808018719173859">"Hey, Need Some Electricity Here !!"</string>
+    <string name="keyguard_plugged_in_charging_fast" msgid="6671162730167305479">"Charging rapidly"</string>
+    <string name="keyguard_plugged_in_charging_slowly" msgid="1964714661071163229">"Charging rapidly"</string>
 
 </resources>

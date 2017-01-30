@@ -22,10 +22,10 @@
 
     <string name="app_label" msgid="7164937344850004466">"System UI"</string>
 
-    <string name="keyguard_indication_charging_time" msgid="1757251776872835768">"Eating [<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g>] Until Full"</string>
+    <string name="keyguard_indication_charging_time" msgid="1757251776872835768">"Charging (<xliff:g id="CHARGING_TIME_LEFT">%s</xliff:g> until full)"</string>
 
-    <string name="keyguard_indication_charging_time_fast" msgid="9018981952053914986">"Eating [<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g>] Until Full"</string>
+    <string name="keyguard_indication_charging_time_fast" msgid="9018981952053914986">"Charging rapidly (<xliff:g id="CHARGING_TIME_LEFT">%s</xliff:g> until full)"</string>
 
-    <string name="keyguard_indication_charging_time_slowly" msgid="955252797961724952">"Eating [<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g>] Until Full"</string>
+    <string name="keyguard_indication_charging_time_slowly" msgid="955252797961724952">"Charging rapidly (<xliff:g id="CHARGING_TIME_LEFT">%s</xliff:g> until full)"</string>
 
 </resources>

@@ -30,14 +30,11 @@
     <integer name="def_screen_brightness">127</integer>
     <bool name="def_screen_brightness_automatic_mode">true</bool>
 
-    <fraction name="def_window_animation_scale">25%</fraction>
-    <fraction name="def_window_transition_scale">25%</fraction>
-
     <bool name="def_haptic_feedback">false</bool>
 
     <bool name="def_bluetooth_on">true</bool>
 
-    <bool name="def_wifi_display_on">false</bool>
+    <bool name="def_wifi_display_on">true</bool>
 
     <bool name="def_install_non_market_apps">true</bool>
 
@@ -52,16 +49,12 @@
 
     <!-- Default value for whether or not to pulse the notification LED when there is a
          pending notification -->
-    <bool name="def_notification_pulse">false</bool>
+    <bool name="def_notification_pulse">true</bool>
 
     <!-- Notifications use ringer volume -->
     <bool name="def_notifications_use_ring_volume">false</bool>
 
     <!-- Default for Settings.Global.WIFI_SCAN_ALWAYS_AVAILABLE -->
     <integer name="def_wifi_scan_always_available">1</integer>
-
-    <!-- Default for Settings.Global.GUEST_USER_ENABLED -->
-    <bool name="def_guest_user_enabled">false</bool>
-
 
 </resources>

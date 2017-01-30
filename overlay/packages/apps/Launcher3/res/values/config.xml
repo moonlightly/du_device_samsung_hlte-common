@@ -1,9 +1,0 @@
-<resources>
-
-    <bool name="allow_rotation">true</bool>
-
-    <!-- App data backup and restore. To enble backup, register with an android backup service.
-         http://developer.android.com/guide/topics/data/backup.html#BackupKey -->
-    <bool name="enable_backup">true</bool>
-
-</resources>

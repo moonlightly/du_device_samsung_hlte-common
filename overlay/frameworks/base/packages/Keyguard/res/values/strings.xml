@@ -22,24 +22,12 @@
     <!-- App label in the manifest  -->
     <string name="app_name">Keyguard</string>
 
-    <!-- When the lock screen is showing, the phone is plugged in and the battery is fully
-         charged, say that it is charged. -->
-    <string name="keyguard_charged">Im Full Man, UnPlug Me !!</string>
-
-    <!-- When the lock screen is showing and the phone plugged in, and the battery
-         is not fully charged, say that it's charging.  -->
-    <string name="keyguard_plugged_in">Leave Me Alone, Im Eating</string>
-
     <!-- When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, and it's plugged into a fast charger, say that it's charging fast.  -->
-    <string name="keyguard_plugged_in_charging_fast">Come On, Charge Faster You Piece Of Crap</string>
+    <string name="keyguard_plugged_in_charging_fast">Charging rapidly</string>
 
     <!-- When the lock screen is showing and the phone plugged in, and the battery
          is not fully charged, and it's plugged into a slow charger, say that it's charging slowly.  -->
-    <string name="keyguard_plugged_in_charging_slowly">Come On, Charge Faster You Piece Of Crap</string>
-
-    <!-- When the lock screen is showing and the battery is low, warn user to plug
-         in the phone soon. -->
-    <string name="keyguard_low_battery">Hey, Need Some Electricity Here !!</string>
+    <string name="keyguard_plugged_in_charging_slowly">Charging rapidly</string>
 
 </resources>

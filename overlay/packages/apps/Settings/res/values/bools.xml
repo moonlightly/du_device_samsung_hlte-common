@@ -23,6 +23,14 @@
      <bool name="has_dock_settings">true</bool>-->
     <bool name="has_powercontrol_widget">true</bool>
 
+    <!-- Display additional System Update menu if true -->
+    <bool name="config_additional_system_update_setting_enable">true</bool>
+
+    <!-- Whether to show a preference item for the manual in About phone -->
+    <bool name="config_show_manual">true</bool>
+    <!-- Whether to show a preference item for regulatory information in About phone -->
+    <bool name="config_show_regulatory_info">true</bool>
+
     <!-- Whether to show a preference item for mobile plan -->
     <bool name="config_show_mobile_plan">true</bool>
 

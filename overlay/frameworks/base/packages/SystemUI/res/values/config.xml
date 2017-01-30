@@ -28,28 +28,9 @@
     <!-- The number of columns in the QuickSettings -->
     <integer name="quick_settings_num_columns">4</integer>
 
-    <!-- The maximum number of rows in the QuickSettings -->
-    <integer name="quick_settings_max_rows">6</integer>
-
-    <!-- The maximum number of rows in the QuickSettings when on the keyguard -->
-    <integer name="quick_settings_max_rows_keyguard">6</integer>
-
-    <!-- The default tiles to reset to in QuickSettings -->
-    <string name="quick_settings_tiles_reset" translatable="false">
-        wifi,cell,bt,location,sync,hotspot,nfc,airplane,dnd,rotation,screenshot,timeout,themes,caffeine,flashlight,reboot
-    </string>
-
-    <!-- The tiles to display in QuickSettings -->
-    <string name="quick_settings_tiles" translatable="false">
-        wifi,cell,bt,location,sync,hotspot,nfc,airplane,dnd,rotation,screenshot,timeout,themes,caffeine,flashlight,reboot
-	</string>
-
-    <!-- The maximum count of notifications on Keyguard. The rest will be collapsed in an overflow
-     card. -->
-    <integer name="keyguard_max_notification_count">3</integer>
 
     <!-- Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND?  -->
-    <bool name="doze_display_state_supported">true</bool>
+    <bool name="doze_display_state_supported">false</bool>
 
     <!-- Doze: should the significant motion sensor be used as a pulse signal? -->
     <bool name="doze_pulse_on_significant_motion">false</bool>
@@ -58,16 +39,10 @@
     <bool name="doze_pulse_on_pick_up">true</bool>
 
     <!-- Doze: check proximity sensor before pulsing? -->
-    <bool name="doze_proximity_check_before_pulse">true</bool>
+    <bool name="doze_proximity_check_before_pulse">false</bool>
 
     <!-- Doze: should notifications be used as a pulse signal? -->
     <bool name="doze_pulse_on_notifications">true</bool>
-
-    <!-- Doze: when to pulse after a buzzworthy notification arrives -->
-    <string name="doze_pulse_schedule" translatable="false">5s,10s,30s,45s,60s</string>
-
-    <!-- Doze: maximum number of times the notification pulse schedule can be reset -->
-    <integer name="doze_pulse_schedule_resets">3</integer>
 
     <!-- Doze: can we assume the pickup sensor includes a proximity check? -->
     <bool name="doze_pickup_performs_proximity_check">false</bool>
