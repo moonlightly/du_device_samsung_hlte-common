@@ -28,7 +28,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hdcp2.rx=tz \
     ro.qualcomm.cabl=1 \
     ro.secwvk=144 \
-    ro.sf.lcd_density=386
+    ro.sf.lcd_density=480
 
 # GPS
 PRODUCT_PROPERTY_OVERRIDES += \
