@@ -66,13 +66,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     busybox
 
-# Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # GPS
 PRODUCT_PACKAGES += \
-    gps.msm8974
+    gps.msm8974 \
+	libgps.utils
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/gps.conf:/system/etc/gps.conf \
@@ -84,8 +81,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.msm8974 \
     libstlport \
-    libxml2 \
-    Snap
+    libxml2
 
 # Input device
 PRODUCT_COPY_FILES += \
@@ -105,8 +101,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ue_rf4ce_remote.kl:system/usr/keylayout/ue_rf4ce_remote.kl
 
 # Keystore
-# PRODUCT_PACKAGES += \
-#   keystore.msm8974
+PRODUCT_PACKAGES += \
+   keystore.msm8974
 
 # Lights
 PRODUCT_PACKAGES += \

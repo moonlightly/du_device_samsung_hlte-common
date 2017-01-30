@@ -64,7 +64,6 @@ BOARD_HEALTHD_CUSTOM_CHARGER_RES := $(LOCAL_PATH)/charger/images
 
 # CMHW
 BOARD_HARDWARE_CLASS += $(LOCAL_PATH)/cmhw
-BOARD_HARDWARE_CLASS += device/samsung/hlte-common/cmhw
 
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
